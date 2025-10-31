@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+config/config.json
+data/shapefiles/*.shp
+data/shapefiles/*.dbf
+data/shapefiles/*.shx
+data/shapefiles/*.prj
+data/shapefiles/*.cpg
+data/shapefiles/*.sbn
+data/shapefiles/*.sbx
+data/shapefiles/*.xml
+data/output/logs/*.log
+data/output/reports/*
+data/output/mappings/*
+data/backup/*
+
+# Keep directory structure
+!data/shapefiles/.gitkeep
+!data/output/logs/.gitkeep
+!data/output/reports/.gitkeep
+!data/output/mappings/.gitkeep
+!data/backup/.gitkeep

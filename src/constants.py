@@ -1,0 +1,13 @@
+BATCH_SIZE = 1000
+COMMIT_INTERVAL = 1000
+PROGRESS_INTERVAL = 500
+
+CODE_LENGTH = 5
+
+SECTION_TYPE_H = 'horizontal'
+SECTION_TYPE_V = 'vertical'
+
+DM_IDENTITY_MAPPING = {
+    'A': '0',
+    'B': '2'
+}

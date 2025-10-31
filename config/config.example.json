@@ -1,0 +1,39 @@
+{
+  "database": {
+    "host": "your_host",
+    "port": 3306,
+    "user": "your_user",
+    "password": "your_password",
+    "database": "your_database",
+    "charset": "utf8mb4"
+  },
+  "shapefiles": {
+    "h_point": "data/shapefiles/横断面点.shp",
+    "h_line": "data/shapefiles/横断面线.shp",
+    "v_point": "data/shapefiles/纵断面点.shp",
+    "v_line": "data/shapefiles/纵断面线.shp",
+    "prevention_area": "data/shapefiles/防治对象分布面_合并.shp"
+  },
+  "tables": {
+    "h_surface": "IA_M_HSURFACE",
+    "h_point": "IA_M_HSPOINT",
+    "v_surface": "IA_M_VSURFACE",
+    "v_point": "IA_M_VSPOINT",
+    "code_table": "TZX_ONLY_CODE"
+  },
+  "batch": {
+    "size": 1000,
+    "commit_interval": 1000,
+    "progress_interval": 500
+  },
+  "output": {
+    "log_dir": "data/output/logs",
+    "report_dir": "data/output/reports",
+    "mapping_dir": "data/output/mappings"
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "file": "data/output/logs/app.log"
+  }
+}

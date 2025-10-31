@@ -1,0 +1,63 @@
+{
+  "h_point_mapping": {
+    "hecd": "hecd",
+    "pcode": "pcode",
+    "cdistance": "cdistance",
+    "ele": "ele",
+    "lgtd": "lgtd",
+    "lttd": "lttd",
+    "coeff": "coeff",
+    "orderNo": "orderNo",
+    "moditime": null
+  },
+  "h_surface_mapping": {
+    "hecd": "hecd",
+    "channel": "河流名",
+    "address": "名称",
+    "number": {
+      "source": "shapefile_line",
+      "field": "NUMBER"
+    },
+    "dmidentit": {
+      "source": "类别",
+      "transform": {
+        "A": "0",
+        "B": "2",
+        "default": null
+      }
+    },
+    "coeff": "coeff",
+    "adcd": null,
+    "vecd": null,
+    "moditime": null
+  },
+  "v_point_mapping": {
+    "vecd": "vecd",
+    "pname": "pname",
+    "cdistance": "cdistance",
+    "channel": "河流名",
+    "bele": "bele",
+    "ele": "bele",
+    "lgtd": "lgtd",
+    "lttd": "lttd",
+    "orderNo": "orderNo",
+    "cltype": null,
+    "moditime": null
+  },
+  "v_surface_mapping": {
+    "vecd": "vecd",
+    "channel": "河流名",
+    "address": "名称",
+    "number": {
+      "source": "shapefile_line",
+      "field": "NUMBER"
+    },
+    "adcd": null,
+    "cele": null,
+    "clgtd": null,
+    "clttd": null,
+    "eletype": null,
+    "method": null,
+    "moditime": null
+  }
+}
